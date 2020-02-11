@@ -1,0 +1,84 @@
+@import "./variables";
+
+*{
+    background: #ffffff;
+}
+
+.login-wrapper{
+    padding: 30px;
+    max-width: 400px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    text-align: center;
+    color: $hijau;
+    font-weight: 1000;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 100%;
+    background: $silver;
+    font-weight: 500;
+    &:focus{
+        outline: 2px solid $hijau;
+        transition: 0.5s;
+    }
+}
+
+.login-button{
+    background: $hijau;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 800;
+    &:hover{
+        background: $hijautua;
+    }
+}
+
+input, button{
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+button{
+    padding: 15px;
+}
+
+.confirm{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.cekbox{
+    display: block;
+    margin: 0;
+    height: 1.2em;
+    width: 1.2em;
+    background-color: #ffffff;
+    margin-right: 10px;
+    text-align: left;
+}
+
+label{
+    text-align: left;
+    color: $abutua;
+}
+
+.new-account{
+    text-decoration: underline;
+    color: $ungu;
+    cursor: pointer;
+    margin-top: 10px;    
+}

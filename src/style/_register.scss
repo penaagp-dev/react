@@ -1,0 +1,109 @@
+@import "./variables";
+@import "./button";
+
+*{
+    background: #ffffff;
+}
+
+.register-wrapper{
+    padding: 0 20px;
+    max-width: 600px;
+    min-height: 100vh;
+    padding: 50px 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.firstname, .lastname, .new-password, .repeat-password{
+    width: 48%;
+}
+
+.lastname, .repeat-password{
+    float: right;
+}
+.register{
+    text-align: center;
+    color: $hijau;
+    font-weight: 1000;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 100%;
+    background: $silver;
+    font-weight: 500;
+    &:focus{
+        outline: 2px solid $hijau;
+        transition: 0.5s;
+    }
+}
+
+.next-button{
+    width: 35%;
+    float: right;
+    margin-top: 30px;
+}
+
+.register-button{
+    margin-top: 30px;
+    width: 100%;
+}
+
+input, button{
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+button{
+    padding: 15px;
+}
+
+.confirm{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.cekbox{
+    display: block;
+    margin: 0;
+    height: 1.2em;
+    width: 1.2em;
+    background-color: #ffffff;
+    margin-right: 10px;
+    text-align: left;
+}
+
+label{
+    display: block;
+}
+
+.new-account{
+    text-decoration: underline;
+    color: $ungu;
+    cursor: pointer;
+    margin-top: 10px;    
+}
+
+.personal-info{
+    display: block;
+}
+
+.location-info{
+    display: none;
+}
+
+.others-info{
+    display: none;
+}
+
+@media only screen and (max-width: 480px){
+    .firstname, .lastname, .new-password, .repeat-password{
+        width: 100%;
+    }    
+}

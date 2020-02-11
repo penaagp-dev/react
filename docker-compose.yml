@@ -1,0 +1,16 @@
+version: '3'
+services:
+    adrini:
+      image: registry.gitlab.com/adrini/adrini_portal:0.1.4
+      environment:
+        - REACT_APP_ENVIRONMENT=production
+      command: ["serve","-s" ,"build"]
+      ports:
+        - "6080:5000"
+    adrini2:
+      image: registry.gitlab.com/adrini/adrini_portal:0.1.4
+      environment:
+        - REACT_APP_ENVIRONMENT=production
+      command: ["serve","-s" ,"build"]
+      ports:
+        - "6081:5000"

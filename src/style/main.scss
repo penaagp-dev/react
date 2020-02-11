@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./register";
+@import "./login";
+@import "./button";
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+}
+

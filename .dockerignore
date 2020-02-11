@@ -1,0 +1,9 @@
+node_modules
+.dockerignore
+package-lock.json
+Dockerfile
+npm-debug.log
+build
+.git
+.hg
+.svn

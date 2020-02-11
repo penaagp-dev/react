@@ -1,0 +1,176 @@
+.login-form{
+    margin: auto;
+    margin-top: 30px;
+    width: 1100px;
+    height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: white;
+    position: center center;
+}
+
+.image-logo{
+    width: 100%;
+    padding-top: 75px;
+}
+
+.text-logo{
+    margin: 20px 0 0 0;
+    text-align: center;
+    color: #FF7F50;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.login-image{
+    background-color: rgb(247, 247, 247);
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.login-input{
+    width: 60%;
+    height: 550px;
+    float: left;
+}
+
+form, .complete{
+    padding: 20px 50px;
+}
+
+form{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.complete{
+    padding: 0 50px;
+    margin: 15px 0;
+}
+.welcome-text{
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.input{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #eaeaea;
+}
+
+.table-input{
+    display: inline-grid;
+    width: 48%;
+}
+
+.to-right{
+    margin-left: 15px;
+}
+
+.full-input{
+    width: 100%;
+    display: block;
+}
+
+.input:focus{
+    outline: 0;
+    border-color:#bac8f3;
+    box-shadow: 0 0 0 3px rgba(78,115,223,.25);
+}
+
+.input-button{
+    background: #4e73df;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.input-button:hover{
+    background-color: #2e59d9;
+}
+
+.input-label{
+    color: #696969;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.checkbox{
+    height: 18px;
+    width: 18px;
+}
+
+.input-button-gmail, .input-button-fb{
+    margin: 15px 0;
+}
+
+.input-button-gmail{
+    background-color: #ea4335;
+}
+.input-button-gmail:hover{
+    background-color: #e12717;
+}
+
+.input-button-fb{
+    background-color: #3b5998;
+}
+
+.input-button-fb:hover{
+    background-color: #30497c;
+}
+
+.complete-text{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #4e73df;
+    text-decoration: none;
+}
+
+hr{
+    border: 0.5px solid #eaeaea;
+}
+
+.logo{
+    margin-left: 5px;
+}
+
+@media (max-width: 992px){
+    .login-form{
+        margin: auto;
+        width: 500px;
+        margin-top: 50px;
+    }
+    .login-image,.image-logo{
+        display: none;
+    }
+    .login-input{
+        width: 100%;
+    }
+    .to-right{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 567px){
+    .login-form{
+        margin: auto;
+        margin-top: 50px;
+        width: 90%;
+        height: 700px;
+    }
+    .input{
+        display: block;
+        width: 100%;
+    }
+    .to-right{
+        margin-left: 0;
+    }
+}
