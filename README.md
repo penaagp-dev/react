@@ -13,3 +13,6 @@ npm start
 
 ##TestUp
 From fadli
+
+##conflig
+tested for conflig 
